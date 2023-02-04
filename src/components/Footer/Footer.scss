@@ -1,0 +1,28 @@
+footer {
+  padding: 24px 32px;
+  border-top: 2px solid #e2e2ea;
+  position: sticky;
+  background: #ffffff;
+  bottom: 0;
+
+  .footer-items-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+
+    .footer-item {
+      position: relative;
+
+      .notification-notice {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #fc5a5a;
+      }
+    }
+  }
+}

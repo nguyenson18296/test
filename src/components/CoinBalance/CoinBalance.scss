@@ -1,0 +1,110 @@
+.coin-balance-wrap {
+  margin-top: 40px;
+  width: 343px;
+
+  background: #ffffff;
+  /* Grey 09 */
+
+  border: 1px solid #fafafb;
+  /* Shadow - Low */
+
+  box-shadow: 0px 12px 18px rgba(23, 23, 37, 0.04);
+  border-radius: 8px;
+  padding: 24px;
+
+  .available-coin-label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    /* Grey 05 */
+
+    color: #b5b5be;
+  }
+
+  .available-coin {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+
+    letter-spacing: -0.5px;
+
+    /* Grey 01 */
+
+    color: #171725;
+  }
+
+  .coin-balance-description {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    letter-spacing: -0.005em;
+
+    /* Grey 04 */
+
+    color: #92929d;
+  }
+
+  .view-benefit-button {
+    margin-top: 16px;
+
+    a {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+
+      letter-spacing: -0.005em;
+
+      /* Blue-Dark */
+
+      color: #0062ff;
+      text-decoration: none;
+
+      &::after {
+        content: url("../../assets/icon-next.svg");
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .btn-action {
+    margin-top: 24px;
+    width: 100%;
+    height: 60px;
+    background: #171725;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .updated-date {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    /* Grey 05 */
+
+    color: #b5b5be;
+  }
+}
